@@ -1,0 +1,4 @@
+name: SpyCmd
+main: theoni.spy.Main
+version: 1.0
+api: ["1.0.8"]
