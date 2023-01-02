@@ -16,6 +16,7 @@ public class SpyCommand extends PluginCommand<Main> {
         super(plugin.getConfig().getString("command.name"), plugin);
         this.setDescription(plugin.getConfig().getString("command.description"));
         this.setAliases(plugin.getConfig().getStringList("command.aliases").toArray(new String[]{}));
+        this.setPermission("spy.use");
         this.plugin = plugin;
         this.config = plugin.getConfig();
     }
